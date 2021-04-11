@@ -17,7 +17,6 @@ function sortByHeight(arr) {
     return c;
   });
   sortedArr.splice(0, sortedArr.lastIndexOf(-1) + 1);
-  console.log(`res2  ${res2}`);
   for (let i = 0, j = 0; i < arr.length; i += 1) {
     if (arr[i] !== -1) {
       res2.push(sortedArr[j]);
