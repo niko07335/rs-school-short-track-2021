@@ -27,9 +27,7 @@ function removeKFromList(l, k) {
       a = a.next;
     }
   }
-
   return l;
-
   // throw new Error('Not implemented');
 }
 
